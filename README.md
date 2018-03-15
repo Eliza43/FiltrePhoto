@@ -6,9 +6,15 @@ FiltrePhoto est un outil permettant de rendre vie à vos photos. Avec ce plugin 
 ## Installation
 
 - [Télécharger le dossier](https://github.com/Eliza43/FiltrePhoto).
-- Ajoutez le fichier filtre.js dans votre dossier javascript
+- [Télécharger la librairie jquery](https://jquery.com/).
+
+## Inclure 
+
 - Ajoutez le fichier style.css dans votre dossier css
 - Reliez ces fichiers à votre index.html
+
+
+
 - Inclure le menu des filtres dans votre index.html
 
 ```
@@ -30,3 +36,29 @@ FiltrePhoto est un outil permettant de rendre vie à vos photos. Avec ce plugin 
     </p>
 </form>
 ```
+
+- Ajoutez le fichier filtre.js dans votre dossier javascript
+
+```
+<!-- Code de Filtre Photo -->
+<script src="js/filtre.js"></script>
+
+```
+
+- Reliez la librairie Jquery
+
+```
+<!-- Le style relier au effet -->
+<script src="js/jquery-3.3.1.min.js"></script>
+```
+
+- Reliez les effets appliqué sur la liste des filtres
+
+```
+<!-- Le style relier au effet -->
+<link rel="stylesheet" href="css/style.css">
+<script src="js/jquery-3.3.1.min.js"></script>
+<script src="js/filtre.js"></script>
+
+```
+
