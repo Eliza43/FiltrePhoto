@@ -9,7 +9,8 @@ FiltrePhoto est un outil permettant de rendre vie à vos photos. Avec ce plugin 
 - Ajoutez le fichier filtre.js dans votre dossier
 - Reliez ce fichier à votre index.html
 - Inclure le menu des filtres dans votre index.html
-```<form id="filtre">
+```
+<form id="filtre">
     <p>
         <label>Choissisez votre filtre</label>
         <br/>
