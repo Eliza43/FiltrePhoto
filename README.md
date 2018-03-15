@@ -1,6 +1,8 @@
-<h1>Filtre Photo</h1>
+# Filtre Photo
 
 
-<p>FiltrePhoto est un outil permettant de rendre vie à vos photos. Avec ce plugin vous pouvez choisir un effet pour chaque photo de votre site.</p>
+FiltrePhoto est un outil permettant de rendre vie à vos photos. Avec ce plugin vous pouvez choisir un effet pour chaque photo de votre site.
 
-<h2>Installation</h2>
+## Installation
+
+- [Télécharger le dossier](https://github.com/Eliza43/FiltrePhoto).
