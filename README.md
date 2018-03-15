@@ -9,12 +9,6 @@ FiltrePhoto est un outil permettant de rendre vie à vos photos. Avec ce plugin 
 - [Télécharger la librairie jquery](https://jquery.com/).
 
 ## Inclure 
-
-- Ajoutez le fichier style.css dans votre dossier css
-- Reliez ces fichiers à votre index.html
-
-
-
 - Inclure le menu des filtres dans votre index.html
 
 ```
