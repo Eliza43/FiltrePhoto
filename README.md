@@ -61,3 +61,11 @@ FiltrePhoto est un outil permettant de rendre vie à vos photos. Avec ce plugin 
 <link rel="stylesheet" href="css/style.css">
 ```
 
+## Utilisation du plugin
+
+
+
+
+## Copyright 
+
+Copyright (c) 2018 - De Antoni Eliza.
