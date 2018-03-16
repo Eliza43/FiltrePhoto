@@ -12,23 +12,32 @@ FiltrePhoto est un outil permettant de rendre vie à vos photos. Avec ce plugin 
 - Inclure le menu des filtres dans votre index.html
 
 ```
-<form id="filtre">
-    <p>
-        <label>Choissisez votre filtre</label>
-        <br/>
-        <select name="filtre" id="filtreList" >
-            <option id="basique" value="basique">Basique</option>
-            <option id="grayscale"  value="grayscale">Grayscale</option>
-            <option id="sepia" value="sepia">Sépia</option>
-            <option id="floutage" value="floutage">Flou</option>
-            <option id="invert" value="invert">Invert</option>
-            <option id="saturation" value="saturation">Saturation</option>
-            <option id="brightness" value="brightness">brightness</option>
-            <option id="hue-rotate" value="hue-rotate">hue-rotate</option>
-            <option id="lumiere" value="lumiere">lumiere</option>
-        </select>
-    </p>
-</form>
+<!-- The Modal -->
+<div id="myModal" class="modal">
+
+    <!-- Modal content -->
+    <div class="modal-content">
+        <span class="close">&times;</span>
+        <form id="filtre">
+            <p>
+                <label>Choissisez votre filtre</label>
+                <br/>
+                <select name="filtre" id="filtreList">
+                    <option id="basique" value="basique">Basique</option>
+                    <option id="grayscale" value="grayscale">Grayscale</option>
+                    <option id="sepia" value="sepia">Sépia</option>
+                    <option id="floutage" value="floutage">Flou</option>
+                    <option id="invert" value="invert">Invert</option>
+                    <option id="saturation" value="saturation">Saturation</option>
+                    <option id="brightness" value="brightness">brightness</option>
+                    <option id="hue-rotate" value="hue-rotate">hue-rotate</option>
+                    <option id="lumiere" value="lumiere">lumiere</option>
+                </select>
+            </p>
+        </form>
+    </div>
+
+</div>
 ```
 
 - Ajoutez le fichier filtre.js dans votre dossier javascript
@@ -36,7 +45,6 @@ FiltrePhoto est un outil permettant de rendre vie à vos photos. Avec ce plugin 
 ```
 <!-- Code de Filtre Photo -->
 <script src="js/filtre.js"></script>
-
 ```
 
 - Reliez la librairie Jquery
@@ -51,8 +59,5 @@ FiltrePhoto est un outil permettant de rendre vie à vos photos. Avec ce plugin 
 ```
 <!-- Le style relier au effet -->
 <link rel="stylesheet" href="css/style.css">
-<script src="js/jquery-3.3.1.min.js"></script>
-<script src="js/filtre.js"></script>
-
 ```
 
